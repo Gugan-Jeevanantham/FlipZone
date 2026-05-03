@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { TIME_DIFF, GS, STORAGE_USER, STORAGE_BEST } from './data';
+import { CATS, TIME_DIFF, GS, STORAGE_USER, STORAGE_BEST } from './data';
 import { buildCards, getResult } from './utils/helpers';
 import { useAudio } from './hooks/useAudio';
 import './styles/index.css';
